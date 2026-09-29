@@ -1,0 +1,3 @@
+model,reservoirs,background,AUC,mean_score_reservoirs,median_score_reservoirs,mean_score_background,pct_in_High_VeryHigh,pct_in_Moderate_or_above,pct_in_excluded_zone
+AHP-WLC,3,10000,0.8311999999999999,3.1920002,3.1718726,2.9662278,100.0,100.0,0.0
+TOPSIS,3,10000,0.7025,0.5313504,0.53160435,0.5108579,100.0,100.0,0.0

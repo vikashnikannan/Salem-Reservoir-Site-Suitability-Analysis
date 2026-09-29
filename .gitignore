@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# raw pipeline outputs are NOT committed - only the small files in ./data
+*.tif
+!data/rasters/*.tif
+*.npy
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg

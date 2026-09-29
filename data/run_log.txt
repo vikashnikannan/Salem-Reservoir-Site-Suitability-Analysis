@@ -1,0 +1,412 @@
+
+==========================================================================================
+STEP 1 - DATA COLLECTION & AUDIT (are all rasters in 1-5? declared NoData? zeros?)
+==========================================================================================
+  auditing 01_Annual_Rainfall_norm.tif ...
+  auditing 01_Elevation_Score_10m_UTM44N.tif ...
+  auditing 01_geology_lithology_suit.tif ...
+  auditing 02_geomorphology_suit.tif ...
+  auditing 02_Rainfall_Variability_norm.tif ...
+  auditing 02_Slope_Score_10m_UTM44N.tif ...
+  auditing 03_Annual_Runoff_norm.tif ...
+  auditing 03_Relief_Score_10m_UTM44N.tif ...
+  auditing 03_soil_depth_suit.tif ...
+  auditing 04_Peak_Runoff_norm.tif ...
+  auditing 04_soil_texture_suit.tif ...
+  auditing 04_Valley_width_Score_10m_UTM44N.tif ...
+  auditing 05_soil_drainage_suit.tif ...
+  auditing 05_SW_Monsoon_Runoff_norm.tif ...
+  auditing 05_Valley_depth.tif ...
+  auditing 06_NE_Monsoon_Runoff_norm.tif ...
+  auditing 06_soil_erosion_suit.tif ...
+  auditing 06_TWI_Score_10m_UTM44N.tif ...
+  auditing 07_seismic_zone_suit.tif ...
+  auditing 07_Streamflow_norm.tif ...
+  auditing 07_TRI_Score_10m_UTM44N.tif ...
+  auditing 08_Dependable_Yield_norm.tif ...
+  auditing 08_dist_roads_suit.tif ...
+  auditing 08_Flow_accumulation_Score_10m_UTM44N.tif ...
+  auditing 09_dist_settlement_suit.tif ...
+  auditing 09_Flow_Accumulation_norm.tif ...
+  auditing 09_Geomorphology_Score_10m_UTM44N.tif ...
+  auditing 10_dist_protected_area_suit.tif ...
+  auditing 10_Drainage_Density_norm.tif ...
+  auditing 10_Foundation_permeability_proxy_Score_10m_UTM44N.tif ...
+  auditing 11_dist_reserve_forest_suit.tif ...
+  auditing 11_Soil_texture_Score_10m_UTM44N.tif ...
+  auditing 11_Stream_Order_norm.tif ...
+  auditing 12_Catchment_Area_norm.tif ...
+  auditing 12_dist_eco_sensitive_suit.tif ...
+  auditing 12_Soil_erodibility_K_Score_10m_UTM44N.tif ...
+  auditing 13_dist_river_suit.tif ...
+  auditing 14_dist_drainage_suit.tif ...
+  auditing 14_Population_density_2020_Score_10m_UTM44N.tif ...
+  auditing 15_dist_existing_tanks_suit.tif ...
+  auditing 26_Soil_erodibility_K.tif ...
+  auditing Salem_Lithology_Suitability_1_5_10m_UTM44N.tif ...
+  auditing salem_lulc_normalized_1to5.tif ...
+                                                          res  nodata    min      max  zero_pct classes   status               role
+file                                                                                                                               
+01_Annual_Rainfall_norm.tif                            10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+01_Elevation_Score_10m_UTM44N.tif                      10.000     NaN  0.000    5.000    45.433       6  NOT_1_5         registered
+01_geology_lithology_suit.tif                          10.000     0.0  1.000    5.000     0.000       4   OK_1_5         registered
+02_geomorphology_suit.tif                              10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+02_Rainfall_Variability_norm.tif                       10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+02_Slope_Score_10m_UTM44N.tif                          10.000     NaN  0.000    5.000    45.433       6  NOT_1_5         registered
+03_Annual_Runoff_norm.tif                              10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+03_Relief_Score_10m_UTM44N.tif                         10.000     NaN  0.000    5.000    45.433       6  NOT_1_5         registered
+03_soil_depth_suit.tif                                 10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+04_Peak_Runoff_norm.tif                                10.000     0.0  1.000    5.000     0.000       4   OK_1_5         registered
+04_soil_texture_suit.tif                               10.000     0.0  1.000    5.000     0.000       4   OK_1_5         registered
+04_Valley_width_Score_10m_UTM44N.tif                   10.000     NaN  0.000    5.000    45.433       3  NOT_1_5         registered
+05_soil_drainage_suit.tif                              10.000     0.0  1.000    5.000     0.000       4   OK_1_5         registered
+05_SW_Monsoon_Runoff_norm.tif                          10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+05_Valley_depth.tif                                    10.000     NaN  0.000  912.000     0.025     >30  NOT_1_5         registered
+06_NE_Monsoon_Runoff_norm.tif                          10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+06_soil_erosion_suit.tif                               10.000     0.0  1.000    4.000     0.000       3   OK_1_5         registered
+06_TWI_Score_10m_UTM44N.tif                            10.000     NaN  0.000    5.000    45.433       6  NOT_1_5         registered
+07_seismic_zone_suit.tif                               10.000     0.0  4.000    5.000     0.000       2   OK_1_5         registered
+07_Streamflow_norm.tif                                 10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+07_TRI_Score_10m_UTM44N.tif                            10.000     NaN  0.000    5.000    45.433       6  NOT_1_5         registered
+08_Dependable_Yield_norm.tif                           10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+08_dist_roads_suit.tif                                 10.000     0.0  1.000    5.000     0.000       4   OK_1_5         registered
+08_Flow_accumulation_Score_10m_UTM44N.tif              10.000     NaN  0.000    5.000    45.433       6  NOT_1_5         registered
+09_dist_settlement_suit.tif                            10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+09_Flow_Accumulation_norm.tif                          10.000     0.0  2.000    5.000     0.000       4   OK_1_5  DUPLICATE-removed
+09_Geomorphology_Score_10m_UTM44N.tif                  10.000     NaN  0.000    5.000    45.433       6  NOT_1_5  DUPLICATE-removed
+10_dist_protected_area_suit.tif                        10.000     0.0  5.000    5.000     0.000       1   OK_1_5         registered
+10_Drainage_Density_norm.tif                           10.000     0.0  2.000    5.000     0.000       4   OK_1_5         registered
+10_Foundation_permeability_proxy_Score_10m_UTM44N.tif  10.000     NaN  0.000    3.000    46.587       4  NOT_1_5         registered
+11_dist_reserve_forest_suit.tif                        10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+11_Soil_texture_Score_10m_UTM44N.tif                   10.000     NaN  0.000    5.000    46.587       5  NOT_1_5  DUPLICATE-removed
+11_Stream_Order_norm.tif                               10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+12_Catchment_Area_norm.tif                             10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+12_dist_eco_sensitive_suit.tif                         10.000     0.0  5.000    5.000     0.000       1   OK_1_5         registered
+12_Soil_erodibility_K_Score_10m_UTM44N.tif             10.000     NaN  0.000    5.000    46.587       3  NOT_1_5  DUPLICATE-removed
+13_dist_river_suit.tif                                 10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+14_dist_drainage_suit.tif                              10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+14_Population_density_2020_Score_10m_UTM44N.tif        10.000     NaN  0.000    5.000    45.433       6  NOT_1_5         registered
+15_dist_existing_tanks_suit.tif                        10.000     0.0  1.000    5.000     0.000       5   OK_1_5         registered
+26_Soil_erodibility_K.tif                              10.000     NaN  0.015    0.022     0.000     >30  NOT_1_5         registered
+Salem_Lithology_Suitability_1_5_10m_UTM44N.tif         10.000     0.0  2.000    5.000     0.000       3   OK_1_5  DUPLICATE-removed
+salem_lulc_normalized_1to5.tif                          9.999 -9999.0  1.000    5.000     0.000       5   OK_1_5         registered
+
+Rasters NOT strictly in the 1-5 classification:
+  - 01_Elevation_Score_10m_UTM44N.tif: min=0 max=5 (registered)
+  - 02_Slope_Score_10m_UTM44N.tif: min=0 max=5 (registered)
+  - 03_Relief_Score_10m_UTM44N.tif: min=0 max=5 (registered)
+  - 04_Valley_width_Score_10m_UTM44N.tif: min=0 max=5 (registered)
+  - 05_Valley_depth.tif: min=0 max=912 (registered)
+  - 06_TWI_Score_10m_UTM44N.tif: min=0 max=5 (registered)
+  - 07_TRI_Score_10m_UTM44N.tif: min=0 max=5 (registered)
+  - 08_Flow_accumulation_Score_10m_UTM44N.tif: min=0 max=5 (registered)
+  - 09_Geomorphology_Score_10m_UTM44N.tif: min=0 max=5 (DUPLICATE-removed)
+  - 10_Foundation_permeability_proxy_Score_10m_UTM44N.tif: min=0 max=3 (registered)
+  - 11_Soil_texture_Score_10m_UTM44N.tif: min=0 max=5 (DUPLICATE-removed)
+  - 12_Soil_erodibility_K_Score_10m_UTM44N.tif: min=0 max=5 (DUPLICATE-removed)
+  - 14_Population_density_2020_Score_10m_UTM44N.tif: min=0 max=5 (registered)
+  - 26_Soil_erodibility_K.tif: min=0.01466 max=0.02203 (registered)
+
+Rasters containing value 0 (0 is NOT automatically treated as NoData - check the metadata):
+  - 01_Elevation_Score_10m_UTM44N.tif: 45.43 % zeros, declared NoData = nan
+  - 02_Slope_Score_10m_UTM44N.tif: 45.43 % zeros, declared NoData = nan
+  - 03_Relief_Score_10m_UTM44N.tif: 45.43 % zeros, declared NoData = nan
+  - 04_Valley_width_Score_10m_UTM44N.tif: 45.43 % zeros, declared NoData = nan
+  - 05_Valley_depth.tif: 0.02 % zeros, declared NoData = nan
+  - 06_TWI_Score_10m_UTM44N.tif: 45.43 % zeros, declared NoData = nan
+  - 07_TRI_Score_10m_UTM44N.tif: 45.43 % zeros, declared NoData = nan
+  - 08_Flow_accumulation_Score_10m_UTM44N.tif: 45.43 % zeros, declared NoData = nan
+  - 09_Geomorphology_Score_10m_UTM44N.tif: 45.43 % zeros, declared NoData = nan
+  - 10_Foundation_permeability_proxy_Score_10m_UTM44N.tif: 46.59 % zeros, declared NoData = nan
+  - 11_Soil_texture_Score_10m_UTM44N.tif: 46.59 % zeros, declared NoData = nan
+  - 12_Soil_erodibility_K_Score_10m_UTM44N.tif: 46.59 % zeros, declared NoData = nan
+  - 14_Population_density_2020_Score_10m_UTM44N.tif: 45.43 % zeros, declared NoData = nan
+Grid: 4342 x 2462 px @ 30.0 m, CRS EPSG:32644, Salem pixels = 5,827,613
+
+==========================================================================================
+STEP 2 - STANDARDISE (duplicates removed, raw layers normalised, common grid, clipped to Salem)
+==========================================================================================
+  removed duplicate: 09_Flow_Accumulation_norm.tif -> duplicate of flow_acc (08_Flow_accumulation_Score_10m)
+  removed duplicate: 09_Geomorphology_Score_10m_UTM44N.tif -> duplicate of geomorphology (02_geomorphology_suit)
+  removed duplicate: 11_Soil_texture_Score_10m_UTM44N.tif -> duplicate of soil_texture (04_soil_texture_suit)
+  removed duplicate: Salem_Lithology_Suitability_1_5_10m_UTM44N.tif -> duplicate of lithology (01_geology_lithology_suit)
+  removed duplicate: 12_Soil_erodibility_K_Score_10m_UTM44N.tif -> duplicate of soil_K (raw 26_Soil_erodibility_K is normalised here)
+  note: elevation has zeros (0.00 % of Salem pixels) -> kept as VALID
+  elevation            valid=100.0%  0-5 score layer: 0 kept as VALID and set to class 1
+  note: slope has zeros (0.00 % of Salem pixels) -> kept as VALID
+  slope                valid=100.0%  0-5 score layer: 0 kept as VALID and set to class 1
+  note: relief has zeros (0.00 % of Salem pixels) -> kept as VALID
+  relief               valid=100.0%  0-5 score layer: 0 kept as VALID and set to class 1
+  note: tri has zeros (0.00 % of Salem pixels) -> kept as VALID
+  tri                  valid=100.0%  0-5 score layer: 0 kept as VALID and set to class 1
+  note: valley_width has zeros (0.00 % of Salem pixels) -> kept as VALID
+  valley_width         valid=100.0%  0-5 score layer: 0 kept as VALID and set to class 1
+  valley_depth         valid=100.0%  percentile stretch p2=9.37, p98=557.6 [PROVISIONAL - justify or set RAW_CLASS_BREAKS]
+  note: twi has zeros (0.00 % of Salem pixels) -> kept as VALID
+  twi                  valid=100.0%  0-5 score layer: 0 kept as VALID and set to class 1
+  note: flow_acc has zeros (0.00 % of Salem pixels) -> kept as VALID
+  flow_acc             valid=100.0%  0-5 score layer: 0 kept as VALID and set to class 1
+  rainfall             valid=100.0%  already 1-5
+  rain_var             valid=100.0%  already 1-5
+  runoff               valid=100.0%  already 1-5
+  peak_runoff          valid=100.0%  already 1-5
+  sw_runoff            valid=100.0%  already 1-5
+  ne_runoff            valid=100.0%  already 1-5
+  streamflow           valid=100.0%  already 1-5
+  dependable_yield     valid=100.0%  already 1-5
+  stream_order         valid=100.0%  already 1-5
+  drainage_density     valid=100.0%  already 1-5
+  catchment_area       valid=100.0%  already 1-5
+  dist_river           valid=100.0%  already 1-5
+  dist_drainage        valid=100.0%  already 1-5
+  lithology            valid=100.0%  already 1-5
+  geomorphology        valid=100.0%  already 1-5
+  note: foundation_perm has zeros (2.07 % of Salem pixels) -> kept as VALID
+  foundation_perm      valid=100.0%  0-5 score layer: 0 kept as VALID and set to class 1
+  seismic              valid=100.0%  already 1-5
+  soil_texture         valid=100.0%  already 1-5
+  soil_depth           valid=100.0%  already 1-5
+  soil_drainage        valid=100.0%  already 1-5
+  soil_erosion         valid=100.0%  already 1-5
+  soil_K               valid= 98.3%  percentile stretch p2=0.0154, p98=0.01993 [PROVISIONAL - justify or set RAW_CLASS_BREAKS] + INVERTED (high value = unsuitable)
+  lulc                 valid=100.0%  already 1-5
+  note: population has zeros (0.00 % of Salem pixels) -> kept as VALID
+  population           valid=100.0%  0-5 score layer: 0 kept as VALID and set to class 1
+  roads                valid=100.0%  already 1-5
+  settlement           valid=100.0%  already 1-5
+  existing_tanks       valid=100.0%  already 1-5
+  dist_protected       valid=100.0%  already 1-5
+  dist_reserve_forest  valid=100.0%  already 1-5
+  dist_eco_sensitive   valid=100.0%  already 1-5
+
+==========================================================================================
+STEP 3 - HARD CONSTRAINTS (kept separate from weighted factors)
+==========================================================================================
+  dist_protected         excludes   0.0 % of Salem (score <= 1.5)
+  dist_reserve_forest    excludes  22.4 % of Salem (score <= 1.5)
+  dist_eco_sensitive     excludes   0.0 % of Salem (score <= 1.5)
+  settlement             excludes  37.0 % of Salem (score <= 1.5)
+  slope                  excludes   8.2 % of Salem (score <= 1.5)
+  ELIGIBLE area = 39.6 % of Salem
+  (existing reservoirs are NOT used as a constraint here, so they can validate the model; they are excluded later from the candidate-site list.)
+
+==========================================================================================
+STEP 4 - REDUNDANCY ANALYSIS (Spearman / Pearson / VIF / PCA) and selection of 31 factors
+==========================================================================================
+  'existing_tanks' is kept OUT of the model (circular with existing-reservoir validation).
+  core factors available: 28 / 28; missing: []
+  + adding 'streamflow' (least redundant remaining layer: max|r| with model = 0.23)
+  + adding 'dist_drainage' (least redundant remaining layer: max|r| with model = 0.44)
+  + adding 'soil_drainage' (least redundant remaining layer: max|r| with model = 0.56)
+
+  MODEL PARAMETERS = 31  (target 31)
+  per group: {'Hydrology': 10, 'Topography': 8, 'Soil': 5, 'Geology': 4, 'Socio_Env': 4} 
+  NOTE: no structure / lineament / fault-distance layers were supplied, so Geology has fewer than 7.
+
+  Layers NOT in the 31-factor model (represented by):
+     sw_runoff          max |r| = 0.86 with rainfall
+     ne_runoff          max |r| = 0.78 with runoff
+     dependable_yield   max |r| = 0.94 with streamflow
+
+  Correlation review among the 31 model factors (screening bands, not universal laws):
+     elevation          valley_width       r = +0.707  (0.70-0.80 potential redundancy)
+     valley_width       tri                r = +0.736  (0.70-0.80 potential redundancy)
+     valley_width       geomorphology      r = +0.791  (0.70-0.80 potential redundancy)
+     tri                geomorphology      r = +0.761  (0.70-0.80 potential redundancy)
+     rainfall           runoff             r = +0.880  (>0.80 strong - investigate)
+  pair counts: {'<0.50 acceptable': 438, '0.50-0.70 inspect': 22, '0.70-0.80 potential redundancy': 4, '>0.80 strong - investigate': 1}
+  VIF > 10 (strong multicollinearity): []
+  PCA diagnostic: 20 components explain 90 % of the variance of the 31 factors
+
+==========================================================================================
+STEP 5 - HIERARCHICAL AHP (5 groups -> parameters); W_ij = W_i x W_j|i
+==========================================================================================
+  group level: CR = 0.006 OK
+  Topography  group weight=0.244 n= 8 CR=0.007 OK
+  Hydrology   group weight=0.265 n=10 CR=0.009 OK
+  Geology     group weight=0.265 n= 4 CR=0.000 OK
+  Soil        group weight=0.122 n= 5 CR=0.004 OK
+  Socio_Env   group weight=0.104 n= 4 CR=0.022 OK
+                 key       group  group_w  local_w  final_w  group_CR
+0    foundation_perm     Geology   0.2648   0.3333   0.0883    0.0000
+1          lithology     Geology   0.2648   0.3333   0.0883    0.0000
+2      geomorphology     Geology   0.2648   0.1667   0.0441    0.0000
+3            seismic     Geology   0.2648   0.1667   0.0441    0.0000
+4       valley_width  Topography   0.2440   0.1761   0.0430    0.0069
+5             runoff   Hydrology   0.2648   0.1465   0.0388    0.0091
+6     catchment_area   Hydrology   0.2648   0.1465   0.0388    0.0091
+7              slope  Topography   0.2440   0.1588   0.0387    0.0069
+8       valley_depth  Topography   0.2440   0.1588   0.0387    0.0069
+9           flow_acc  Topography   0.2440   0.1507   0.0368    0.0069
+10          rainfall   Hydrology   0.2648   0.1364   0.0361    0.0091
+11        streamflow   Hydrology   0.2648   0.1364   0.0361    0.0091
+12            relief  Topography   0.2440   0.1398   0.0341    0.0069
+13     soil_drainage        Soil   0.1220   0.2693   0.0329    0.0044
+14              lulc   Socio_Env   0.1044   0.2894   0.0302    0.0225
+15        settlement   Socio_Env   0.1044   0.2894   0.0302    0.0225
+16      soil_texture        Soil   0.1220   0.2465   0.0301    0.0044
+17        soil_depth        Soil   0.1220   0.2465   0.0301    0.0044
+18      stream_order   Hydrology   0.2648   0.1022   0.0270    0.0091
+19        population   Socio_Env   0.1044   0.2463   0.0257    0.0225
+20  drainage_density   Hydrology   0.2648   0.0757   0.0200    0.0091
+21       peak_runoff   Hydrology   0.2648   0.0757   0.0200    0.0091
+22               twi  Topography   0.2440   0.0754   0.0184    0.0069
+23         elevation  Topography   0.2440   0.0754   0.0184    0.0069
+24             roads   Socio_Env   0.1044   0.1750   0.0183    0.0225
+25          rain_var   Hydrology   0.2648   0.0658   0.0174    0.0091
+26     dist_drainage   Hydrology   0.2648   0.0658   0.0174    0.0091
+27               tri  Topography   0.2440   0.0652   0.0159    0.0069
+28      soil_erosion        Soil   0.1220   0.1233   0.0150    0.0044
+29            soil_K        Soil   0.1220   0.1143   0.0139    0.0044
+30        dist_river   Hydrology   0.2648   0.0490   0.0130    0.0091
+  sum of final weights = 1.0000   n parameters = 31
+  NOTE: the pairwise judgements come from the importance scores in REGISTRY / GROUP_IMPORTANCE - replace with literature/expert values and report the matrices + CR.
+
+==========================================================================================
+STEP 6 - WEIGHTED OVERLAY (AHP-WLC, primary) + TOPSIS (comparison)
+==========================================================================================
+  RSI range 2.06-3.85; TOPSIS 0.302-0.655
+  Spearman(WLC, TOPSIS) = 0.943
+  AHP-WLC: presentation-class breaks (natural) = [2.76  2.936 3.099 3.283]
+  TOPSIS: presentation-class breaks (natural) = [0.467 0.499 0.527 0.556]
+  (classes are PRESENTATION classes, not engineering thresholds; equal / quantile / natural compared in 06_class_method_comparison.csv)
+
+==========================================================================================
+STEP 7a - EXISTING RESERVOIRS (Tamil Nadu shapefile clipped to Salem)
+==========================================================================================
+  Tamil Nadu reservoirs = 180   inside Salem = 6
+
+==========================================================================================
+STEP 7b - VALIDATION WITH EXISTING RESERVOIRS (independent of the model)
+==========================================================================================
+model                     AHP-WLC  TOPSIS
+reservoirs                      3       3
+background                  10000   10000
+AUC                         0.831   0.702
+mean_score_reservoirs       3.192   0.531
+median_score_reservoirs     3.172   0.532
+mean_score_background       2.966   0.511
+pct_in_High_VeryHigh        100.0   100.0
+pct_in_Moderate_or_above    100.0   100.0
+pct_in_excluded_zone          0.0     0.0
+  Existing reservoirs are reference locations (historical decisions), not perfect ground truth.
+  NOTE: <15 reservoir pixels - treat AUC as indicative only.
+
+  PRIMARY MODEL for final maps / candidates: AHP-WLC
+  AUC vs spatial separation of background points:
+ background_buffer_m  n_background   AUC
+               300.0         10000 0.831
+              1000.0         10000 0.831
+              2000.0         10000 0.831
+  Frequency ratio (reservoir % / area %):
+      cls  area_pct  reservoir_pct  frequency_ratio
+ Very Low    10.620            0.0            0.000
+      Low    24.933            0.0            0.000
+ Moderate    29.272            0.0            0.000
+     High    22.437          100.0            4.457
+Very High    12.738            0.0            0.000
+
+  Area by class (km2): excluded=3167.4 | Very Low=220.6 | Low=518.0 | Moderate=608.1 | High=466.1 | Very High=264.6
+
+==========================================================================================
+STEP 8 - JACKKNIFE + WEIGHT SENSITIVITY (which parameters are most influential?)
+==========================================================================================
+  AUC with all parameters = 0.831 (presence n=3, background n=10000)
+                 key       group  weight  auc_alone  auc_without   d_auc  rho_without  influence  spearman_with_RSI
+0       valley_width  Topography  0.0430     0.5112       0.8601 -0.0289       0.9190     0.0810             0.4893
+1     catchment_area   Hydrology  0.0388     0.5036       0.8320 -0.0008       0.9677     0.0323             0.2044
+2             runoff   Hydrology  0.0388     0.3639       0.8976 -0.0664       0.9695     0.0305             0.6222
+3           rainfall   Hydrology  0.0361     0.2978       0.9052 -0.0740       0.9729     0.0271             0.5996
+4              slope  Topography  0.0387     0.5120       0.8374 -0.0062       0.9769     0.0231             0.4122
+5    foundation_perm     Geology  0.0883     0.3651       0.8577 -0.0265       0.9784     0.0216             0.3588
+6             relief  Topography  0.0341     0.6240       0.7718  0.0594       0.9785     0.0215            -0.2469
+7       valley_depth  Topography  0.0387     0.6924       0.7631  0.0681       0.9836     0.0164            -0.2842
+8         streamflow   Hydrology  0.0361     0.5507       0.8345 -0.0033       0.9846     0.0154             0.1561
+9         settlement   Socio_Env  0.0302     0.7056       0.7891  0.0421       0.9860     0.0140            -0.1441
+10        soil_depth        Soil  0.0301     0.3208       0.8531 -0.0219       0.9865     0.0135             0.3026
+11      soil_texture        Soil  0.0301     0.1947       0.8762 -0.0450       0.9873     0.0127             0.3663
+12         lithology     Geology  0.0883     0.5199       0.8252  0.0060       0.9878     0.0122             0.0943
+13      stream_order   Hydrology  0.0270     0.8709       0.7868  0.0444       0.9912     0.0088             0.2054
+14              lulc   Socio_Env  0.0302     0.9854       0.7382  0.0930       0.9916     0.0084             0.2186
+15             roads   Socio_Env  0.0183     0.6585       0.8131  0.0181       0.9928     0.0072            -0.1567
+16       peak_runoff   Hydrology  0.0200     0.5027       0.8299  0.0013       0.9931     0.0069            -0.1873
+17          rain_var   Hydrology  0.0174     0.4992       0.8359 -0.0047       0.9934     0.0066            -0.0414
+18  drainage_density   Hydrology  0.0200     0.3656       0.8429 -0.0117       0.9941     0.0059             0.2107
+19     geomorphology     Geology  0.0441     0.6664       0.8245  0.0067       0.9947     0.0053             0.4501
+20           seismic     Geology  0.0441     0.5564       0.8295  0.0017       0.9947     0.0053             0.1511
+21        population   Socio_Env  0.0257     0.7005       0.8088  0.0224       0.9959     0.0041             0.1146
+22         elevation  Topography  0.0184     0.4503       0.8458 -0.0146       0.9961     0.0039             0.5044
+23               twi  Topography  0.0184     0.9386       0.7963  0.0349       0.9967     0.0033             0.4036
+24            soil_K        Soil  0.0139     0.7504       0.8098  0.0214       0.9967     0.0033            -0.3215
+25        dist_river   Hydrology  0.0130     0.4732       0.8363 -0.0051       0.9971     0.0029             0.1600
+26          flow_acc  Topography  0.0368     0.8185       0.7342  0.0970       0.9972     0.0028             0.1686
+27     dist_drainage   Hydrology  0.0174     0.4507       0.8315 -0.0003       0.9974     0.0026            -0.1453
+28     soil_drainage        Soil  0.0329     0.2318       0.8588 -0.0276       0.9978     0.0022             0.4377
+29      soil_erosion        Soil  0.0150     0.2062       0.8479 -0.0167       0.9986     0.0014             0.4310
+30               tri  Topography  0.0159     0.7379       0.8288  0.0024       0.9991     0.0009             0.4369
+
+  MOST INFLUENTIAL PARAMETERS (largest change of the map when removed):
+     valley_width       weight=0.043  1-rho=0.0810  dAUC=-0.0289  AUC-alone=0.511
+     catchment_area     weight=0.039  1-rho=0.0323  dAUC=-0.0008  AUC-alone=0.504
+     runoff             weight=0.039  1-rho=0.0305  dAUC=-0.0664  AUC-alone=0.364
+     rainfall           weight=0.036  1-rho=0.0271  dAUC=-0.0740  AUC-alone=0.298
+     slope              weight=0.039  1-rho=0.0231  dAUC=-0.0062  AUC-alone=0.512
+     foundation_perm    weight=0.088  1-rho=0.0216  dAUC=-0.0265  AUC-alone=0.365
+     relief             weight=0.034  1-rho=0.0215  dAUC=+0.0594  AUC-alone=0.624
+     valley_depth       weight=0.039  1-rho=0.0164  dAUC=+0.0681  AUC-alone=0.692
+     streamflow         weight=0.036  1-rho=0.0154  dAUC=-0.0033  AUC-alone=0.551
+     settlement         weight=0.030  1-rho=0.0140  dAUC=+0.0421  AUC-alone=0.706
+
+  Group-weight sensitivity (+-10 / +-20 %):
+       scenario  spearman  top20_jaccard    auc
+   Geology x0.8    0.9984         0.9541 0.8364
+   Geology x0.9    0.9996         0.9763 0.8337
+   Geology x1.1    0.9996         0.9734 0.8288
+   Geology x1.2    0.9986         0.9598 0.8255
+Topography x0.8    0.9948         0.9333 0.7985
+Topography x0.9    0.9988         0.9598 0.8158
+Topography x1.1    0.9990         0.9589 0.8451
+Topography x1.2    0.9961         0.9342 0.8583
+ Hydrology x0.8    0.9950         0.9048 0.8638
+ Hydrology x0.9    0.9988         0.9522 0.8480
+ Hydrology x1.1    0.9990         0.9541 0.8147
+ Hydrology x1.2    0.9964         0.9166 0.7985
+      Soil x0.8    0.9977         0.9093 0.8505
+      Soil x0.9    0.9994         0.9503 0.8411
+      Soil x1.1    0.9994         0.9579 0.8218
+      Soil x1.2    0.9978         0.9286 0.8115
+ Socio_Env x0.8    0.9980         0.9342 0.7990
+ Socio_Env x0.9    0.9995         0.9656 0.8161
+ Socio_Env x1.1    0.9995         0.9656 0.8453
+ Socio_Env x1.2    0.9980         0.9370 0.8568
+
+==========================================================================================
+DEM MODULE
+==========================================================================================
+  DEM not found at D:\internship\cwr- hacathon\final\data\DEM_30m.tif -> catchment / dam-axis / storage / inundation screening SKIPPED.
+  (put a DEM there, e.g. SRTM 30 m, in metres, to enable it)
+
+==========================================================================================
+STEP 9 - CANDIDATE DAM SITES (High + Very High, on drainage, existing reservoirs excluded)
+==========================================================================================
+  High+VeryHigh px = 811,918   on drainage = 546,169
+  removed 1,934 px within 1000 m of existing reservoirs (not new sites)
+  candidate sites after 1000 m spacing = 500
+
+==========================================================================================
+STEP 10 - HYDROLOGICAL + GEOLOGICAL + ENGINEERING (+ DEM reservoir) SCREENING
+==========================================================================================
+  rank stability: median rank range across 20 weight scenarios = 74; min Spearman vs baseline = 0.972
+  WLC vs TOPSIS rank agreement at candidate sites: Spearman = 0.861
+  passed HYDROLOGICAL: 214  GEOLOGICAL: 3  ENGINEERING: 19  ALL: 0 of 500
+
+  SHORTLISTED SITES (pass all screening):
+Empty DataFrame
+Columns: [rank, site_id, x, y, score, cls, rank_min, rank_max, valley_depth_m_raw]
+Index: []
+
+==========================================================================================
+DONE
+==========================================================================================
+LIMITATION: regional pre-feasibility screening only. Foundation permeability here is a regional PROXY from lithology; detailed geology, geophysics, seismic, hydrological (design flood) and geotechnical investigation are required before any construction decision.
+Outputs in: D:\internship\cwr- hacathon\final\output
